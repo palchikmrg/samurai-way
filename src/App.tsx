@@ -1,22 +1,18 @@
 import React from 'react';
 import './App.css';
+import Header from "./components/Header";
+import Navbar from "./components/Navbar";
+import Profile from "./components/Profile";
 
 
 function App() {
     return (
         <div className='app-wrapper'>
-            <header className='header'>
-                <img src='https://play-lh.googleusercontent.com/ahJtMe0vfOlAu1XJVQ6rcaGrQBgtrEZQefHy7SXB7jpijKhu1Kkox90XDuH8RmcBOXNn'></img>
-                </header>
-            <nav className='nav'>
-                <div>Profile</div>
-                <div>Messages</div>
-                <div></div>
-            </nav>
-            <div className='content'>Main content</div>
-
+            <Header />
+            <Navbar />
+            <Profile />
         </div>
-);
+    );
 }
 
 
