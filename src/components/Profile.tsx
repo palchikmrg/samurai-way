@@ -1,9 +1,9 @@
 import React from "react";
-import './Profile.css';
+import s from './Profile.module.css';
 
 function Profile() {
     return (
-        <div className='content'>
+        <div className={s.content}>
             <div>
                 <img
                     src='https://www.metoffice.gov.uk/binaries/content/gallery/metofficegovuk/hero-images/weather/long-range-forecast.jpg'/>
@@ -16,11 +16,11 @@ function Profile() {
                 <div>
                     New post
                 </div>
-                <div>
-                    <div>
+                <div className={s.posts}>
+                    <div className={s.item}>
                         post 1
                     </div>
-                    <div>
+                    <div className={s.item}>
                         post 2
                     </div>
                 </div>
