@@ -4,7 +4,7 @@ import s from './Music.module.css';
 function Music(props: any) {
     return (
         <div>
-            News
+            Music
         </div>
     )
 }
