@@ -4,7 +4,7 @@ import MyPosts from "./MyPosts/MyPosts";
 
 function Profile() {
     return (
-        <div className={s.content}>
+        <div>
             <div>
                 <img
                     src='https://www.metoffice.gov.uk/binaries/content/gallery/metofficegovuk/hero-images/weather/long-range-forecast.jpg'/>
